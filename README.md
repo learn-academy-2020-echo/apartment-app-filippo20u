@@ -1,12 +1,12 @@
 
-# Apartment Resource
+### Apartment Resource
 #foreign_key
 rails g resource Apartment street:string city:string state:string manager:string email:string price:string bedrooms:integer bathrooms:integer pets:string user_id:integer
 
 
 
 
-# apartment-app-filippo20u
+### apartment-app-filippo20u
 
 
 
@@ -73,7 +73,7 @@ Show
 Dynamic route
 Pass one apartment and display the content
 
-# ProtectedIndex
+### ProtectedIndex
 Added current_user to Devise routes in index.html.erb
 Added new component to show apartments that belong to a user
 Route will filter the apartments in state and return only the apartments that match the current_user id
