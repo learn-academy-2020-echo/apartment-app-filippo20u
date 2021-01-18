@@ -15,7 +15,7 @@ rails g resource Apartment street:string city:string state:string manager:string
 
 
 # Apartment App (Sarah readme.md)
-# Initial File Setup for React in Rails
+### Initial File Setup for React in Rails
 
 $ rails new apartment_app -d postgresql -T
 $ cd apartment_app
@@ -34,7 +34,7 @@ $ rails generate rspec:install
 Added folders for assets, components, pages
 Added Header, Home, NotFound, Index, Show components
 
-# Adding Devise
+### Adding Devise
 $ bundle add devise
 $ rails generate devise:install
 $ rails generate devise User
@@ -47,7 +47,7 @@ Apartments belong to a user
 Defined relationships in the models 
 Added a mockApartments file in the outer components folder, import to App.js
 
-# Reactstrap
+### Reactstrap
 $ bundle add bootstrap
 $ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
 
@@ -56,7 +56,7 @@ Add an import to the "sass" file @import 'bootstrap'
 
 $ yarn add reactstrap
 
-# React Router
+## React Router
 $ yarn add react-router-dom
 Import components to App.js
 
