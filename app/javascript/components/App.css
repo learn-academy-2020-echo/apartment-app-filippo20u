@@ -1,0 +1,19 @@
+
+header {
+    background-color: aqua;
+}
+
+.home-img {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+img {
+width: 1000px;
+height: auto;
+} 
+
+h1 {
+
+font-size: 25px;
+}

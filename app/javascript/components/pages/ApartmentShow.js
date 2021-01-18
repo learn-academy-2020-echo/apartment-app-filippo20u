@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class ApartmentIndex extends Component {
+class ApartmentShow extends Component {
     render() {
         return (
             <div>
-                <h1>Apt Index</h1>
+                <h1>Apt Show</h1>
             </div>
         );
     }
 }
 
-export default ApartmentIndex;
+export default ApartmentShow;

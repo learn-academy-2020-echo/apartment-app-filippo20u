@@ -1,16 +1,11 @@
 <%= react_component "App", {
 
 # question mark = boolean value
-logged_in: 
-user_signed_in?,
+logged_in: user_signed_in?,
+sign_in_route: new_user_session_path,
+sign_out_route: destroy_user_session_path,
 
-
-sign_in_route: 
-new_user_session_path,
-
-
-sign_out_route: 
-destroy_user_session_path
-
+# # line from sarah
+current_user: current_user,
 
 } %>
