@@ -54,3 +54,6 @@ gem "devise", "~> 4.7"
 gem "rspec-rails", "~> 4.0"
 
 gem "bootstrap", "~> 4.5"
+
+# Added from Cat Tinder
+gem 'rack-cors', :require => 'rack/cors'

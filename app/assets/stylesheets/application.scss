@@ -1,6 +1,103 @@
 @import "bootstrap";
 
 
-.header{
-    background-color: aquamarine;
+
+
+.app-descrip1 {
+
+    text-align: center;
+    background-color: rgb(100, 202, 143);
+    }
+
+
+h1 {
+        text-align: center;
+        background-color:hsl(164, 74%, 28%) ;
+        color: whitesmoke;
+        font-size: 25px;
+    
+    }
+
+     
+.home-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+img {
+    width: 1000px;
+    height: auto;
+    } 
+    
+ 
+// .index-card {
+
+
+
+    // .index-card2 {
+
+    //     text-align: center;
+    //     background-color: rgb(40, 153, 30);
+    //     }
+    
+    //     .index-card3 {
+
+    //         text-align: center;
+    //         background-color: rgb(6, 39, 16);
+    //         color: cornsilk;
+    //         }
+        
+    
+.ul-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+// background-color: darkgoldenrod;
+
+
+    background-color: #282c34;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom:auto;
+    margin-top: auto;
+  
+
+}
+
+li:hover{
+    background-color: rgb(201, 238, 146);
+}
+
+.header-house {
+   
+width: auto;
+height: 50px;
+}
+
+
+.index-card {
+
+    text-align: center;
+    background-color: rgb(15, 131, 83);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+
+.show-page {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }

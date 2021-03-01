@@ -2,42 +2,61 @@
 const mockApartments = [
     {
       id: 1,
-      street: "221B Baker St",
-      city: "London",
-      state: "UK",
-      manager: "Ms. Hudson",
-      email: "ms-hud@uk.com",
+      street: "Via Imprunetana",
+      city: "Firenze",
+      state: "IT",
+      manager: "Beppe ",
+      email: "beppe@gmail.com",
       price: "1000",
-      bedrooms: 2,
+      bedrooms: 5,
       bathrooms: 2,
-      pets: "no",
+      pets: "yes",
       user_id: 1
     },
+
     {
       id: 2,
-      street: "742 Evergreen Terrace",
-      city: "Springfield",
-      state: "Yes",
-      manager: "Homer",
+      
+      street: "Rue Beau de Popis",
+      city: "Paris",
+      state: "France",
+      manager: "Anne Lescaux",
       email: "hs@dounut.com",
-      price: "500",
+      price: "5000",
       bedrooms: 3,
       bathrooms: 2,
       pets: "yes",
       user_id: 1
     },
+    
     {
       id: 3,
-      street: "1640 Riverside Drive",
-      city: "Hill Valley",
-      state: "California",
-      manager: "Emmet Brown",
+      street: "3467 Adams Avenue",
+      city: "San Diego",
+      state: "California USA",
+      manager: "Brandon Merr",
       email: "julesfan@2015.com",
       price: "2000",
       bedrooms: 6,
       bathrooms: 4,
-      pets: "yes",
+      pets: "no",
+      user_id: 2
+    },
+
+    {
+      id: 4,
+      street: "756 Prospect",
+      city: "San Diego",
+      state: "California USA",
+      manager: "Brandon Merr",
+      email: "julesfan@2015.com",
+      price: "8000",
+      bedrooms: 1,
+      bathrooms: 4,
+      pets: "no",
       user_id: 2
     }
+
+
   ]
   export default mockApartments
